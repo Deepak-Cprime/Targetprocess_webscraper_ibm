@@ -70,8 +70,9 @@ chmod +x search-docs.sh
 ```
 Example
 ```
- ./search-docs.sh -e "automation rule"
-Response:
+./search-docs.sh -e "automation rule"
+
+//Response:
 Using search database: docs.db
 ----------------------------------------
 Searching for: "automation rule"
