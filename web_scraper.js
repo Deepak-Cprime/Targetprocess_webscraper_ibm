@@ -7,14 +7,14 @@ import { open } from 'sqlite';
 
 const OUTPUT_DIR = './docs';
 const DB_FILE = './docs.db';
-const SIDEBAR_JSON = './sidebar_links_with_sublinks.json';
+const SIDEBAR_JSON = './sidebar_links_nested.json';
 
 if (!fs.existsSync(OUTPUT_DIR)) fs.mkdirSync(OUTPUT_DIR);
 
 async function initDatabase() {
   const db = await open({
     filename: DB_FILE,
-    driver: sqlite3.Database
+    driver: sqlite3.Database,
   });
 
   await db.exec(`
@@ -26,7 +26,10 @@ async function initDatabase() {
   return db;
 }
 
-async function scrapeAndSavePage(page, url, title, db) {
+async function scrapeAndSavePage(page, url, title, db, visited) {
+  if (visited.has(url)) return;
+  visited.add(url);
+
   try {
     await page.goto(url, { waitUntil: 'networkidle' });
 
@@ -38,28 +41,44 @@ async function scrapeAndSavePage(page, url, title, db) {
     fs.writeFileSync(filePath, markdown);
 
     const id = fileSafeTitle;
-    await db.run(`INSERT INTO docs (id, title, url, content) VALUES (?, ?, ?, ?)`, [
-      id, title, url, markdown
-    ]);
+    await db.run(
+      `INSERT INTO docs (id, title, url, content) VALUES (?, ?, ?, ?)`,
+      [id, title, url, markdown]
+    );
 
     const headings = markdown.match(/^#+\s.+$/gm) || [];
     for (const heading of headings) {
       const level = heading.match(/^#+/)[0].length;
       const text = heading.replace(/^#+\s/, '');
-      await db.run(`INSERT INTO sections (doc_id, section, level) VALUES (?, ?, ?)`, [
-        id, text, level
-      ]);
+      await db.run(
+        `INSERT INTO sections (doc_id, section, level) VALUES (?, ?, ?)`,
+        [id, text, level]
+      );
     }
 
     const internalLinks = [...markdown.matchAll(/\[.+?\]\((\/[^)]+)\)/g)];
     for (const match of internalLinks) {
       const target = new URL(match[1], url).href;
-      await db.run(`INSERT INTO relationships (source, target) VALUES (?, ?)`, [url, target]);
+      await db.run(
+        `INSERT INTO relationships (source, target) VALUES (?, ?)`,
+        [url, target]
+      );
     }
 
-    console.log(`✅ Saved ${title}`);
+    console.log(`✅ Saved: ${title}`);
   } catch (err) {
     console.warn(`⚠️ Failed to scrape ${url}: ${err.message}`);
+  }
+}
+
+async function scrapeTreeRecursive(page, node, parentTitle, db, visited) {
+  const currentTitle = parentTitle ? `${parentTitle} - ${node.title}` : node.title;
+  await scrapeAndSavePage(page, node.href, currentTitle, db, visited);
+
+  if (node.subLinks && node.subLinks.length > 0) {
+    for (const child of node.subLinks) {
+      await scrapeTreeRecursive(page, child, currentTitle, db, visited);
+    }
   }
 }
 
@@ -67,14 +86,12 @@ async function scrapeAndSavePage(page, url, title, db) {
   const browser = await chromium.launch({ headless: true });
   const page = await browser.newPage();
   const db = await initDatabase();
+  const visited = new Set();
 
   const sidebarLinks = JSON.parse(fs.readFileSync(SIDEBAR_JSON, 'utf-8'));
 
-  for (const { title: mainTitle, href, subLinks } of sidebarLinks) {
-    // await scrapeAndSavePage(page, href, mainTitle, db);
-    for (const { title: subTitle, href: subHref } of subLinks) {
-      await scrapeAndSavePage(page, subHref, `${mainTitle} - ${subTitle}`, db);
-    }
+  for (const node of sidebarLinks) {
+    await scrapeTreeRecursive(page, node, '', db, visited);
   }
 
   await browser.close();
