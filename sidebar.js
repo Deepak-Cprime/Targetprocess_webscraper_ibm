@@ -3,68 +3,95 @@ import fs from 'fs';
 
 const BASE_URL = 'https://www.ibm.com';
 const TARGET_URL = 'https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas';
+const visited = new Set();
 
 (async () => {
-  const browser = await chromium.launch({ headless: false }); // Use headless for debug
+  const browser = await chromium.launch({ headless: false });
   const page = await browser.newPage();
 
-  console.log('Navigating to IBM Docs main page...');
+  console.log('Navigating to IBM Docs...');
   await page.goto(TARGET_URL, { waitUntil: 'networkidle' });
 
-  // Remove cookie banner if present
+  // Remove cookie banner if any
   await page.evaluate(() => {
     const banner = document.querySelector('#consent_blackbar');
     if (banner) banner.remove();
   });
 
-  // Wait for sidebar TOC
   await page.waitForSelector('ul.ibmdocs-toc-links > li');
 
-  const results = [];
+  // Recursively expand all expandable sections
+async function expandAllTOCSections() {
+  while (true) {
+    const expandIcons = await page.$$('.ibmdocs-expand-icon');
+    let clicked = false;
 
-  // Get all list items (TOC sections)
-  const liHandles = await page.$$('ul.ibmdocs-toc-links > li');
-
-  for (let i = 0; i < liHandles.length; i++) {
-    try {
-      // Re-fetch the list item (important to avoid stale handles)
-      const li = (await page.$$('ul.ibmdocs-toc-links > li'))[i];
-      if (!li) continue;
-
-      const mainLinkEl = await li.$('a.ibmdocs-toc-link');
-      const mainTitle = await mainLinkEl?.innerText() ?? '';
-      const mainHref = await mainLinkEl?.getAttribute('href') ?? '';
-      const fullMainHref = new URL(mainHref, BASE_URL).href;
-
-      // Try to expand this section
-      const expandIcon = await li.$('.ibmdocs-expand-icon');
-      if (expandIcon) {
-        await expandIcon.scrollIntoViewIfNeeded();
-        await expandIcon.click({ force: true });
-        await page.waitForTimeout(500); // wait for children to load
-      }
-
-      // Extract any sub-links
-      const subLinks = await li.$$eval('.ibmdocs-toc-children a.ibmdocs-toc-link', anchors =>
-        anchors.map(a => ({
-          title: a.textContent.trim(),
-          href: new URL(a.getAttribute('href'), 'https://www.ibm.com').href
-        }))
-      );
-
-      results.push({
-        title: mainTitle,
-        href: fullMainHref,
-        subLinks
+    for (const icon of expandIcons) {
+      const parentLi = await icon.evaluateHandle(el => {
+        let node = el;
+        while (node && node.tagName !== 'LI') node = node.parentElement;
+        return node;
       });
-    } catch (err) {
-      console.warn(`⚠️ Error processing item ${i}: ${err.message}`);
+
+      const isValid = await parentLi.evaluate(node => node && node.isConnected);
+      if (!isValid) continue;
+
+      const hasLoadedChildren = await parentLi.evaluate(li => {
+        const sub = li.querySelector('.ibmdocs-toc-children > ul > li');
+        return !!sub;
+      });
+
+      if (!hasLoadedChildren) {
+        try {
+          await icon.scrollIntoViewIfNeeded();
+          await icon.click({ force: true });
+          await page.waitForTimeout(500);
+          clicked = true;
+        } catch (err) {
+          console.warn('⚠️ Could not click an expander:', err.message);
+        }
+      }
     }
+
+    if (!clicked) break;
+  }
+}
+
+
+
+  // Extract tree after all expansions
+  async function extractTreeFrom(liHandles) {
+    const items = [];
+
+    for (const li of liHandles) {
+      const link = await li.$('a.ibmdocs-toc-link');
+      if (!link) continue;
+
+      const title = await link.innerText();
+      const href = await link.getAttribute('href');
+      const fullHref = href ? new URL(href, BASE_URL).href : null;
+      if (!fullHref || visited.has(fullHref)) continue;
+      visited.add(fullHref);
+
+      const subLis = await li.$$('.ibmdocs-toc-children > ul > li');
+      const subLinks = subLis.length ? await extractTreeFrom(subLis) : [];
+
+      items.push({ title, href: fullHref, subLinks });
+    }
+
+    return items;
   }
 
-  // Write results
-  fs.writeFileSync('sidebar_links_with_sublinks.json', JSON.stringify(results, null, 2));
-  console.log(`✅ Done! Extracted ${results.length} main sections with sub-links.`);
+  // Expand everything
+  console.log('Expanding all TOC sections...');
+  await expandAllTOCSections();
+
+  console.log('Extracting TOC structure...');
+  const topLevelLis = await page.$$('ul.ibmdocs-toc-links > li');
+  const tocTree = await extractTreeFrom(topLevelLis);
+
+  fs.writeFileSync('sidebar_links_nested.json', JSON.stringify(tocTree, null, 2));
+  console.log(`✅ Done. Extracted ${tocTree.length} top-level sections.`);
 
   await browser.close();
 })();
