@@ -17,15 +17,18 @@ This scraper is designed to:
 ---
 
 ## 📁 Project Structure
+```
 deepak-cprime-targetprocess_webscraper_ibm/
-├── sidebar.js # Scrapes the sidebar menu structure with titles and URLs.
-├── sidebar_links_nested.json # Stores the parsed sidebar structure with main links and sub-links.
-├── web_scraper.js # Scrapes each documentation page and builds the local doc DB.
-├── search-docs.sh # CLI utility to search the local SQLite doc DB.
-├── docs/ # Output folder for Markdown files (created on run).
-├── docs.db # SQLite FTS5 database for searching content (created on run).
+├── sidebar.js                 # Scrapes the sidebar navigation structure with titles and URLs
+├── sidebar_links_nested.json # Stores the structured sidebar hierarchy (main + sub-links)
+├── web_scraper.js            # Scrapes individual pages and saves them as Markdown + DB
+├── search-docs.sh            # CLI tool for querying the SQLite FTS documentation DB
+├── docs/                     # Folder where Markdown files are saved
+├── docs.db                   # SQLite FTS5 database containing indexed documentation content
+```
 
 ---
+
 
 ## 📦 Required Libraries & Packages
 
@@ -45,7 +48,7 @@ Ensure the following system tools are available:
 
 ---
 
-###🛠 Setup Instructions
+### 🛠 Setup Instructions
 Clone the repository
 ```
 git clone https://github.com/your-username/deepak-cprime-targetprocess_webscraper_ibm.git
@@ -74,14 +77,14 @@ Use --exact flag for exact phrase matching:
 ./search-docs.sh --exact "REST API V2"
 ```
 ---
-##🧾 Output
+## 🧾 Output
 The following are generated on execution:
 - docs/: Markdown files for each documentation page.
 - docs.db: SQLite database with FTS index of the documentation.
 
 ---
 
-##Example
+## 💡Example
 ```
 ./search-docs.sh api
 Using search database: docs.db
