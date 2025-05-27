@@ -17,6 +17,7 @@ This scraper is designed to:
 ---
 
 ## 📁 Project Structure
+
 ```
 deepak-cprime-targetprocess_webscraper_ibm/
 ├── sidebar.js                 # Scrapes the sidebar navigation structure with titles and URLs
