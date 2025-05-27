@@ -45,7 +45,7 @@ playwright (Chromium installed)
 
 ---
 
-##🛠 Setup Instructions
+###🛠 Setup Instructions
 Clone the repository
 ```
 git clone https://github.com/your-username/deepak-cprime-targetprocess_webscraper_ibm.git
@@ -78,7 +78,9 @@ Use --exact flag for exact phrase matching:
 The following are generated on execution:
   docs/: Markdown files for each documentation page.
   docs.db: SQLite database with FTS index of the documentation.
+
 ---
+
 ##Example
 ```
 ./search-docs.sh api
