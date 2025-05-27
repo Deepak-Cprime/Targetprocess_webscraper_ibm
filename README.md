@@ -38,10 +38,10 @@ npm install playwright fs node-html-markdown sqlite3 sqlite
 ```
 ### 🧰 System Requirements
 Ensure the following system tools are available:
-sqlite3: Command-line SQLite3 tool
-bash: For running search-docs.sh
-node (>= v14 recommended)
-playwright (Chromium installed)
+- sqlite3: Command-line SQLite3 tool
+- bash: For running search-docs.sh
+- node (>= v14 recommended)
+- playwright (Chromium installed)
 
 ---
 
@@ -76,8 +76,8 @@ Use --exact flag for exact phrase matching:
 ---
 ##🧾 Output
 The following are generated on execution:
-  docs/: Markdown files for each documentation page.
-  docs.db: SQLite database with FTS index of the documentation.
+- docs/: Markdown files for each documentation page.
+- docs.db: SQLite database with FTS index of the documentation.
 
 ---
 
