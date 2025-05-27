@@ -36,7 +36,7 @@ Install via `npm install`:
 ```bash
 npm install playwright fs node-html-markdown sqlite3 sqlite
 ```
-## 🧰 System Requirements
+### 🧰 System Requirements
 Ensure the following system tools are available:
 sqlite3: Command-line SQLite3 tool
 bash: For running search-docs.sh
@@ -80,10 +80,6 @@ The following are generated on execution:
   docs.db: SQLite database with FTS index of the documentation.
 ---
 ##Example
-```
-
-```
----
 ```
 ./search-docs.sh api
 Using search database: docs.db
