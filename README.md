@@ -110,7 +110,7 @@ The following are generated on execution:
 - **sidebar_links_nested.json**: Hierarchical structure of the documentation.
 - **graph/**: Visualization files showing document relationships.
 ---
-## API Search
+## 🗝️ API Search
 ```
 curl "http://localhost:8000/search?q=api&limit=10"
 ```
