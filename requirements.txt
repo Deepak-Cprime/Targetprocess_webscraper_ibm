@@ -1,0 +1,5 @@
+fastapi
+uvicorn
+  # Standard library, but included for clarity
+pyvis
+networkx

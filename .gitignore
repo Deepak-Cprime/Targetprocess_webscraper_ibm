@@ -1,0 +1,5 @@
+# Ignore two specific folders
+_pycache_/
+.venv/
+docs/
+node_modules/

@@ -1,0 +1,942 @@
+[
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=targetprocess-rest-api-v1",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=v1-getting-started"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=targetprocess-rest-api-v1",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=v1-authentication"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=targetprocess-rest-api-v1",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=v1-resources-collections"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=targetprocess-rest-api-v1",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=v1-response-formats"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=targetprocess-rest-api-v1",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=v1-paging"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=targetprocess-rest-api-v1",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=v1-sorting-filters"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=targetprocess-rest-api-v1",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=v1-partial-response-includes-excludes"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=targetprocess-rest-api-v1",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=v1-appends-calculations"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=targetprocess-rest-api-v1",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=v1-operations-crud"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=v1-operations-crud",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=crud-create"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=v1-operations-crud",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=crud-update"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=v1-operations-crud",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=crud-set-fields-properties"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=v1-operations-crud",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=crud-upload-attachments"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=v1-operations-crud",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=crud-delete-unassign"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=v1-operations-crud",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=crud-converted-entities"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=v1-operations-crud",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=crud-direct-access-entities"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=targetprocess-rest-api-v1",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=v1-context"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=targetprocess-rest-api-v1",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=v1-use-cases"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=v1-use-cases",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=cases-users"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=v1-use-cases",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=cases-work-items"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=v1-use-cases",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=cases-assignments"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=v1-use-cases",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=cases-releases"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=v1-use-cases",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=cases-testing-module"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=v1-use-cases",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=cases-time-reports"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=targetprocess-rest-api-v1",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=v1-code-samples"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=v1-code-samples",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=samples-javascript"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=v1-code-samples",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=samples-google-apps-script"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=targetprocess-rest-api-v2",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=v2-overview"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=targetprocess-rest-api-v2",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=v2-selectors-filters"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=targetprocess-rest-api-v2",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=v2-result"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=targetprocess-rest-api-v2",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=v2-working-custom-fields"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=targetprocess-rest-api-v2",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=v2-working-tags"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=targetprocess-rest-api-v2",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=v2-working-dates"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=targetprocess-rest-api-v2",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=v2-filtering-by-releases-iterations-team-iterations"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=targetprocess-rest-api-v2",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=v2-working-relations"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=targetprocess-rest-api-v2",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=v2-getting-first-last-element-collection"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=historical-record",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=record-what-is-historical"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=historical-record",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=record-simple-history"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=historical-record",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=record-full-history"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=historical-record",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=record-examples"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=historical-record",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=record-custom-field-values-in-history"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=working-other-apis",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=apis-restful-storage"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=working-other-apis",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=apis-validate-users-requesters"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=working-other-apis",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=apis-undelete-api"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=working-other-apis",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=apis-conversion-api"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=setting-up-automation-rules",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-automation-overview"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=setting-up-automation-rules",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-setup"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-setup",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=setup-sources"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-setup",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=setup-filters"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-setup",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=setup-actions"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-setup",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=setup-other"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-setup",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=setup-how-apply-raw-json-from-examples"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=setting-up-automation-rules",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-diagnostic-troubleshooting"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-diagnostic-troubleshooting",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=troubleshooting-automation-rule-logs"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-diagnostic-troubleshooting",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=troubleshooting-how-make-rules-more-efficient"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-diagnostic-troubleshooting",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=troubleshooting-limits-timeouts"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-diagnostic-troubleshooting",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=troubleshooting-my-automation-rule-is-not-working"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=setting-up-automation-rules",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-javascript-automation"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-javascript-automation",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-javascript-reference"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-javascript-automation",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-javascript-helper-functions"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-javascript-automation",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-javascript-devops-functions"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=setting-up-automation-rules",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-examples-actions-in-targetprocess"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-examples-actions-in-targetprocess",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=targetprocess-add-automatic-comment-when-request-is-closed"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-examples-actions-in-targetprocess",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=targetprocess-assign-features-project-user-story"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-examples-actions-in-targetprocess",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=eait-assign-users-parent-when-they-are-working-its-child"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-examples-actions-in-targetprocess",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=targetprocess-assign-user-storys-feature-bug"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-examples-actions-in-targetprocess",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=targetprocess-assign-bug-current-releaseteam-iteration"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-examples-actions-in-targetprocess",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=targetprocess-assign-item-person-who-started-it"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-examples-actions-in-targetprocess",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=targetprocess-assign-people-working-parent-newly-created-child"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-examples-actions-in-targetprocess",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=targetprocess-assign-projects-teams-newly-created-item"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-examples-actions-in-targetprocess",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=eait-calculate-planned-end-date-based-initial-estimate-effort"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-examples-actions-in-targetprocess",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=targetprocess-create-related-bug-new-requests"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-examples-actions-in-targetprocess",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=eait-close-request-when-all-related-items-are-closed"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-examples-actions-in-targetprocess",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=targetprocess-close-item-its-planned-end-date"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-examples-actions-in-targetprocess",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=eait-close-user-stories-that-stayed-more-than-10-days-in-particular-state"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-examples-actions-in-targetprocess",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=targetprocess-close-all-children-when-parent-was-closed"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-examples-actions-in-targetprocess",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=eait-close-item-when-all-its-children-are-closed"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-examples-actions-in-targetprocess",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=eait-create-set-tasks-under-user-story-based-template"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-examples-actions-in-targetprocess",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=targetprocess-create-pre-defined-hierarchy-new-projects"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-examples-actions-in-targetprocess",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=targetprocess-entity-templates"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-examples-actions-in-targetprocess",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=targetprocess-follow-items-automatically"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-examples-actions-in-targetprocess",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=targetprocess-inherit-tags-from-parent-its-children"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-examples-actions-in-targetprocess",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=targetprocess-inherit-team-from-parent-all-its-children"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-examples-actions-in-targetprocess",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=targetprocess-inherit-team-iterationreleaseiteration-from-parent-its-children"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-examples-actions-in-targetprocess",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=targetprocess-inherit-planned-dates-from-children-parents"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-examples-actions-in-targetprocess",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=targetprocess-inherit-planned-dates-from-parents-children"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-examples-actions-in-targetprocess",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=targetprocess-inherit-releaseiterationteam-iteration-from-children-its-parent"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-examples-actions-in-targetprocess",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=targetprocess-inherit-portfolio-epic-from-epic-its-features"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-examples-actions-in-targetprocess",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=targetprocess-inherit-relations-from-child-parents"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-examples-actions-in-targetprocess",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=targetprocess-limit-planned-dates-based-relations"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-examples-actions-in-targetprocess",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=eait-move-item-planned-state-when-its-release-iteration-team-iteration-is-set"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-examples-actions-in-targetprocess",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=eait-move-item-planned-state-when-its-planned-start-date-is-set"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-examples-actions-in-targetprocess",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=targetprocess-move-item-blocked-state"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-examples-actions-in-targetprocess",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=targetprocess-move-requests-particular-project-based-recipient-email"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-examples-actions-in-targetprocess",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=eait-open-user-story-when-one-its-bugs-becomes-open"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-examples-actions-in-targetprocess",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=targetprocess-post-comment-when-item-is-split"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-examples-actions-in-targetprocess",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=targetprocess-reminders-in-comments"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-examples-actions-in-targetprocess",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=eait-reschedule-work-items-in-release-iteration-team-iteration"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-examples-actions-in-targetprocess",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=targetprocess-reopen-request-when-replied-by-requester"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-examples-actions-in-targetprocess",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=targetprocess-set-found-in-releaseteam-iteration-fields-bugs"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-examples-actions-in-targetprocess",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=eait-set-velocity-new-team-iterations-from-effort-previous-team-iterations-team"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-examples-actions-in-targetprocess",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=targetprocess-set-default-effort"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-examples-actions-in-targetprocess",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=targetprocess-set-planned-end-date-based-severity"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-examples-actions-in-targetprocess",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=targetprocess-set-planned-dates-based-iterationreleaseteam-iteration-dates"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-examples-actions-in-targetprocess",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=targetprocess-start-items-their-planned-start-date"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-examples-actions-in-targetprocess",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=eait-start-parent-item-when-child-item-has-been-started"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-examples-actions-in-targetprocess",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=targetprocess-start-item-when-time-is-added-it"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-examples-actions-in-targetprocess",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=eait-create-bug-attach-user-story-from-incoming-webhook"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-examples-actions-in-targetprocess",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=targetprocess-mention-assigned-users-status-change"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-examples-actions-in-targetprocess",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=targetprocess-mention-assigned-users-field-update"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-examples-actions-in-targetprocess",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=targetprocess-apply-several-templates"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-examples-actions-in-targetprocess",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=eait-recalculate-last-run-result-when-test-case-run-is-deleted"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-examples-actions-in-targetprocess",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=targetprocess-inherit-initial-estimate-from-epic-portfolio-epic"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-examples-actions-in-targetprocess",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=targetprocess-set-custom-field-request-based-requesters-domain"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-examples-actions-in-targetprocess",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=eait-update-team-state-entity-when-team-is-assigned-it"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=setting-up-automation-rules",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-examples-integration-gitlab"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-examples-integration-gitlab",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=gitlab-when-pipeline-passes-move-state"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-examples-integration-gitlab",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=eig-when-gitlab-commit-pushed-add-new-record-sources-tab-entity-view"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=setting-up-automation-rules",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-examples-integration-slack"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-examples-integration-slack",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=slack-message-when-request-created"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-examples-integration-slack",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=slack-send-comments"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-examples-integration-slack",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=slack-send-personal-notifications-about-assignments"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-examples-integration-slack",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=slack-send-mentions-directly"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-examples-integration-slack",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=slack-send-stuck-stories"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-examples-integration-slack",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=slack-send-overdue-features"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-examples-integration-slack",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=slack-send-closed-stories"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-examples-integration-slack",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=slack-slash-commands-create-request-in-targetprocess"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=setting-up-automation-rules",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-examples-integration-wrike"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-examples-integration-wrike",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=eiw-create-task-in-wrike-when-user-story-is-create-in-targetprocess"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=setting-up-automation-rules",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-devops-integrations"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-devops-integrations",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=di-example-change-state-in-targetprocess-when-mergepull-request-updates"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-devops-integrations",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=di-example-when-repositories-custom-field-value-changes-create-branchmerge-request"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-devops-integrations",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=integrations-model-definition"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=setting-up-automation-rules",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-examples-working-custom-fields"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-examples-working-custom-fields",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=fields-check-custom-field-value-in-filter"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-examples-working-custom-fields",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=fields-set-custom-field-in-ui-action"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-examples-working-custom-fields",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=fields-set-custom-field-in-javascript-action"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-examples-working-custom-fields",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=ewcf-use-custom-field-value-in-http-request-action"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=setting-up-automation-rules",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-reusable-automation-via-named-triggers"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=mashups",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=mashups-overview"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=mashups",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=mashups-install-from-library"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=mashups",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=mashups-install-code-mashup-manually"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=mashups",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=mashups-create-your-first-mashup"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=mashups",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=mashups-deactivate-delete"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=mashups",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=mashups-tweak-views-ui-elements"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=mashups-tweak-views-ui-elements",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=elements-board-list-timeline-views"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=mashups-tweak-views-ui-elements",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=elements-dashboards"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=mashups-tweak-views-ui-elements",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=elements-timesheet"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=mashups-tweak-views-ui-elements",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=elements-settings"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=mashups",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=mashups-custom-units"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=mashups",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=mashups-custom-lane-headers"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=mashups",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=mashups-dashboard-widgets"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=mashups",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=mashups-customize-settings"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=metrics-calculated-custom-fields",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=fields-metrics-vs-ccfs"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=metrics-calculated-custom-fields",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=fields-data-types"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=metrics-calculated-custom-fields",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=fields-custom-formulas-syntax"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=metrics-calculated-custom-fields",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=fields-entity"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=metrics-calculated-custom-fields",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=fields-parent-linked-entities"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=metrics-calculated-custom-fields",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=fields-custom"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=metrics-calculated-custom-fields",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=fields-effort-via-relations"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=metrics-calculated-custom-fields",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=fields-custom-progress-metrics"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=metrics-calculated-custom-fields",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=fields-customize-planned-dates-metrics"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=validation-rules",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-validation"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=validation-rules",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=rules-examples"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=entity-view-customization",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=customization-customize-entity-detailed-view"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=entity-view-customization",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=customization-limitations-entity-detailed-view"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=entity-view-customization",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=customization-advanced-ustomization-customize-inner-lists"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=entity-view-customization",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=customization-external-mashup-support"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=customization-external-mashup-support",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=support-mashup-feature-state-user-story"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=customization-external-mashup-support",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=support-mashup-copy-user-story-details-clipboard"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=customization-external-mashup-support",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=support-mashup-epic-userstory"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=customization-external-mashup-support",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=support-mashup-external-link"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=customization-external-mashup-support",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=support-mashup-rich-text"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=customization-external-mashup-support",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=support-mashup-progress-by-custom-field"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=customization-external-mashup-support",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=support-sibling-markerworkaround-classes-stack-element"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=customization-external-mashup-support",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=support-using-componentfactory-dynamic-filtering"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=entity-view-customization",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=customization-embedded-roadmap-view"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=entity-view-customization",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=customization-setting-up-portfolioassignments"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=ui-controls-configuration",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=configuration-assignments-control"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=ui-controls-configuration",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=configuration-configurable-dropdown"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=zapier-integration",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=integration-getting-started"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=zapier-integration",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=integration-supported-triggers-actions"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=zapier-integration",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=integration-use-cases"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=integration-use-cases",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=cases-create-new-items-in-targetprocess-from-slack"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=integration-use-cases",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=cases-integration-personal-toggl-timer"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=integration-use-cases",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=cases-send-email-when-time-spent-is-added"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=email-notifications",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=notifications-markup-guide"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=email-notifications",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=notifications-templates"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=email-notifications",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=notifications-entity-user-comment"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=email-notifications",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=notifications-tool"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=email-notifications",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=notifications-conditions"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=email-notifications",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=notifications-formatting-values"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=email-notifications",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=notifications-examples"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=native-issue-level-integrations-jira-ado-tp",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=tp-javascript-routings"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=tp-javascript-routings",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=routings-example-dynamic-routing-filter-by-process"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=tp-javascript-routings",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=routings-example-sync-features-specific-custom-field-value"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=native-issue-level-integrations-jira-ado-tp",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=tp-javascript-fields-mappings-comparators"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=tp-javascript-fields-mappings-comparators",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=comparators-example-map-jira-worklog-targetprocess-time"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=tp-javascript-fields-mappings-comparators",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=comparators-example-map-jira-status-targetprocess-teamstates"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=native-issue-level-integrations-jira-ado-tp",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=tp-worksharing-api"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=import-export-data",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=data-csv-import"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=import-export-data",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=data-automation-rules-import-export"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=api-reference",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=reference-userstories"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=api-reference",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=ar-userstories"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=api-reference",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=ar-userstories-1"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=api-reference",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=reference-bugs"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=api-reference",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=ar-bugs"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=api-reference",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=ar-bugs-1"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=api-reference",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=reference-epics"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=api-reference",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=ar-epics"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=api-reference",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=ar-epics-1"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=api-reference",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=reference-features"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=api-reference",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=ar-features"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=api-reference",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=ar-features-1"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=api-reference",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=reference-tasks"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=api-reference",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=ar-tasks"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=api-reference",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=ar-tasks-1"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=api-reference",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=reference-requesters"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=api-reference",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=ar-requesters"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=api-reference",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=ar-requesters-1"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=api-reference",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=reference-users"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=api-reference",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=ar-users"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=api-reference",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=ar-users-1"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=api-reference",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=reference-assignables"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=api-reference",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=ar-assignables"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=api-reference",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=ar-assignables-1"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=api-reference",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=reference-generals"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=api-reference",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=ar-generals"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=api-reference",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=ar-generals-1"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=api-reference",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=reference-projects"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=api-reference",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=ar-projects"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=api-reference",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=ar-projects-1"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=api-reference",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=reference-undelete"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=reference-undelete",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=undelete-deleteditems"
+  },
+  {
+    "from": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=reference-undelete",
+    "to": "https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=undelete-restore"
+  }
+]
