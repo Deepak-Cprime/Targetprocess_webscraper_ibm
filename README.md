@@ -122,46 +122,35 @@ curl "http://localhost:8000/search?q=api&limit=10"
 ---
 ## 💡Example
 ```
-./search-docs.sh api
+$ ./search-docs.sh Automation
 Using search database: docs.db
 ----------------------------------------
-Searching for: api
+Searching for: Automation
 ----------------------------------------
-https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=v2-filtering-by-releases-iterations-team-iterations
-Targetprocess REST API V2 - Filtering by Releases, Iterations and Team Iterations
+Setting up Automation Rules - Automation Rules Overview
 
-...To pull the items which belong to the current Release, Iteration or Team Iteration you need to use boolean `IsCurrent` field:
+![GitHub](https://unpkg.com/simple-icons@v3/icons/github.svg)Contribute in GitHub: [Edit online](https://github.ibm.com/IBMPrivateCloud/apptio-docs/edit/main/source/content/targetprocess/dev-hub/automation-rules-overview.md)
 
 ----------------------------------------
 Related documents:
 
-Targetprocess REST API V2 - Filtering by Releases, Iterations and Team Iterations
-  https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=v2-filtering-by-releases-iterations-team-iterations
+Setting up Automation Rules - Automation Rules Overview
 
-Historical Record - Simple history
-  https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=record-simple-history
+Import and Export data - Automation Rules for import and export
 
-Metrics and Calculated Custom Fields - Custom Fields
-  https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=fields-custom
+Setting up Automation Rules - Diagnostic and troubleshooting
 
-Historical Record - Full history
-  https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=record-full-history
+Setting up Automation Rules - Setup - How to apply Raw JSON from Examples
 
-Historical Record - Examples
-  https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=record-examples
+Setting up Automation Rules - Diagnostic and troubleshooting - Automation Rule Logs
 
-Working with Other APIs - Conversion API
-  https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=apis-conversion-api
+Setting up Automation Rules - Examples: Actions in Targetprocess - Create a Related Bug for new Requests
 
-Working with Other APIs - Undelete API
-  https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=apis-undelete-api
+Setting up Automation Rules - Examples: Actions in Targetprocess - Create Bug and attach to User Story from incoming webhook
 
-Targetprocess REST API V1 - Appends and Calculations
-  https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=v1-appends-calculations
+Setting up Automation Rules - Examples: Working with custom fields - Set custom field in UI action
 
-Targetprocess REST API V1 - Paging
-  https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=v1-paging
+Setting up Automation Rules - Diagnostic and troubleshooting - Limits and Timeouts
 
-Targetprocess REST API V1 - Partial response (includes and excludes)
-  https://www.ibm.com/docs/en/targetprocess/tp-dev-hub/saas?topic=v1-partial-response-includes-excludes
+Setting up Automation Rules - Reusable automation rules via Named Triggers
 ```
